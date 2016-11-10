@@ -1,0 +1,37 @@
+@-moz-document url-prefix("https://atom.io/packages"), url-prefix("https://atom.io/themes"), url-prefix("https://atom.io/docs") {
+body {
+    background: #334;
+    color: #ccc;
+}
+
+.markdown-body code, .markdown-body tt {
+    background-color: #233;
+    border-color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #999;
+}
+
+.card .meta {
+    background: #223;
+}
+
+.footer {
+    background-color: #222;
+}
+
+.package-card .keywords li, .project-card .keywords li {
+	background-color: #514115;
+    border-color:  #514115;
+
+}
+
+.social-count {
+	background-color: rgba(229,229,229,0.5)
+}
+
+input[type="text"]{
+	background-color: #223
+}
+}
